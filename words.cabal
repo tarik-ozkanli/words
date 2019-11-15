@@ -1,0 +1,79 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 1b847727e6249b7504b4042d750c58f13f6a416cc25cd025a5c94639d7b22903
+
+name:           words
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/tarik-ozkanli/words#readme>
+homepage:       https://github.com/tarik-ozkanli/words#readme
+bug-reports:    https://github.com/tarik-ozkanli/words/issues
+author:         Tarik Ozkanli
+maintainer:     tarik.ozkanli@tav.aero
+copyright:      BSD
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/tarik-ozkanli/words
+
+library
+  exposed-modules:
+      Lib,
+      Spin
+  other-modules:
+      Paths_words
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable words
+  main-is: Main.hs
+  other-modules:
+      Paths_words
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , words
+    , scotty
+  default-language: Haskell2010
+
+test-suite words-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_words
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , words
+    , hspec
+  default-language: Haskell2010
+
+test-suite spin-test
+  type: exitcode-stdio-1.0
+  main-is: Spec2.hs
+  other-modules:
+      Paths_words
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , words
+    , hspec
+  default-language: Haskell2010
