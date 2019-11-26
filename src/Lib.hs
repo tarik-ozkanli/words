@@ -3,6 +3,7 @@ module Lib
         fact
       , fact2
       , fact3
+      , mult
     ) where
 
 import Data.Maybe
@@ -24,3 +25,6 @@ fact3 n | n < 0     = Nothing
         | n == 0    = Just 1
         | otherwise = Just $ n * (fromJust $ fact3 (n - 1))
 
+
+mult :: Int -> Int -> Int
+mult x y = x * y

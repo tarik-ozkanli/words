@@ -50,7 +50,7 @@ executable words
     , scotty
   default-language: Haskell2010
 
-test-suite words-test
+test-suite lib-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
@@ -64,6 +64,7 @@ test-suite words-test
     , hspec
   default-language: Haskell2010
 
+
 test-suite spin-test
   type: exitcode-stdio-1.0
   main-is: Spec2.hs
@@ -76,4 +77,20 @@ test-suite spin-test
       base >=4.7 && <5
     , words
     , hspec
+  default-language: Haskell2010
+
+
+
+test-suite quick-test
+  type: exitcode-stdio-1.0
+  main-is: Spec3.hs
+  other-modules:
+      Paths_words
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , words
+    , QuickCheck
   default-language: Haskell2010

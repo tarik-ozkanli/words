@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "D:\\workspaces\\haskell\\words\\.stack-work\\install\\aeb5ed7e\\bin"
-libdir     = "D:\\workspaces\\haskell\\words\\.stack-work\\install\\aeb5ed7e\\lib\\x86_64-windows-ghc-8.6.5\\words-0.1.0.0-KX0gikYVdKqAu6m0tUsL16"
+libdir     = "D:\\workspaces\\haskell\\words\\.stack-work\\install\\aeb5ed7e\\lib\\x86_64-windows-ghc-8.6.5\\words-0.1.0.0-DrHqvUmBXziEz50UPBIICH"
 dynlibdir  = "D:\\workspaces\\haskell\\words\\.stack-work\\install\\aeb5ed7e\\lib\\x86_64-windows-ghc-8.6.5"
 datadir    = "D:\\workspaces\\haskell\\words\\.stack-work\\install\\aeb5ed7e\\share\\x86_64-windows-ghc-8.6.5\\words-0.1.0.0"
 libexecdir = "D:\\workspaces\\haskell\\words\\.stack-work\\install\\aeb5ed7e\\libexec\\x86_64-windows-ghc-8.6.5\\words-0.1.0.0"

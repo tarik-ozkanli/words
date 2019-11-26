@@ -133,7 +133,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "words-0.1.0.0-DgWkLQtjsgyJtCxda06t1C-spin-test"
+#define CURRENT_COMPONENT_ID "words-0.1.0.0-6CeqCE9chD65qAekd70d7o-spin-test"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

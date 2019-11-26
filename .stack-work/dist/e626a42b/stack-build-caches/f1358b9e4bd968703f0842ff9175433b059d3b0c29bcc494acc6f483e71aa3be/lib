@@ -3,21 +3,21 @@ D:\workspaces\haskell\words\ChangeLog.md:
   size: 45
   modtime: 1571989254
 D:\workspaces\haskell\words\README.md:
-  hash: 47ac0f2d9099b57c989bf39c1539fcccc2935374947b872a30b34a558a6b88f0
-  size: 8
-  modtime: 1571989254
+  hash: 8f3e8d2c248138998575df0749cd9e3413b34898212c12851e4c05d901824989
+  size: 47
+  modtime: 1573825189
 D:\workspaces\haskell\words\src\Lib.hs:
-  hash: 209fda9bfbd7735b811c6129319d554ff81bb00122500f1b26e45f62d4915472
-  size: 611
-  modtime: 1573822692
+  hash: 8438f69bb0d76a1990d61fa0d7fd3b165caf35c9ee14d9de6033bc890f161bfc
+  size: 668
+  modtime: 1574758346
 D:\workspaces\haskell\words\package.yaml:
   hash: 2042091175af9192d8052c3b4485ca6872ea72e2f846a2fdef2fb093d3136501
   size: 1148
   modtime: 1571989255
 D:\workspaces\haskell\words\words.cabal:
-  hash: 5b2de71564fb6140695382b9fc02d686a38bfa93c076bfa6056519f879011ebb
-  size: 1771
-  modtime: 1573823737
+  hash: d4dbc79e9bf4715a089c897fefc5cb84b0caa3878dd091a300344a19d3a8208b
+  size: 2058
+  modtime: 1574758171
 D:\workspaces\haskell\words\src\Spin.hs:
   hash: 2473214995f89e0025afccfdc31698d566416900d3184fc21b2a1136118153e4
   size: 786
