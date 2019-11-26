@@ -1,5 +1,5 @@
-/.stack-work
+/.stack-work/
 
-/dist
+/dist/
 
 .words.cabal.swp
