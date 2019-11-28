@@ -17,7 +17,7 @@ main = hspec $ do
         fact2 6 `shouldBe` 6 * fact2 (6 - 1)
       it "should be able to calculate fact2 0 = 1" $ do
         fact2 0 `shouldBe` 1
-      it "should be able to calculate factorial of negative numbers as 0" $ do
+      it "should be able to calculate factorial of any negative numbers as 0" $ do
         fact2 (-2) `shouldBe` 0
 
     describe "fact3" $ do

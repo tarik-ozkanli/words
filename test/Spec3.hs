@@ -12,14 +12,17 @@ prop_mult_2 :: Int -> Int -> Bool
 prop_mult_2 x y = mult x (y-1) == mult x y - x
 
 prop_fact_1 :: Integer -> Bool
-prop_fact_1 n = n <= 0 || fact2 n == n * fact2 (n - 1)
+prop_fact_1 n = n <= 0 || fact n == n * fact (n - 1)
 
-prop_fact_2 0 = 1 == fact2 (0)
-
+prop_fact_2 :: Integer -> Bool
+prop_fact_2 n | n < 0 = 0 == fact2 n
+              | n == 0 = 1 == fact2 n
+              | otherwise = fact n == n * fact (n - 1)
 
 main = do
   _ <- quickCheck prop_revapp
   _ <- quickCheck prop_mult_1
   _ <- quickCheck prop_mult_2
   _ <- quickCheck prop_fact_1
+  _ <- quickCheck prop_fact_2
   return ()
